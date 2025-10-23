@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Creepy', cursive;
+    font-family: 'Creepy', 'Arial', 'Helvetica', sans-serif;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0f0f0f 100%);
     color: #ffffff;
     min-height: 100vh;
@@ -65,11 +65,12 @@ body::before {
 }
 
 .main-title {
-    font-family: 'Creepster', cursive;
-    font-size: 2rem;
+    font-family: 'Creepster', 'Arial Black', 'Arial', sans-serif;
+    font-size: 2.2rem;
     margin-bottom: 0.5rem;
     text-shadow: 2px 2px 0px #000, 4px 4px 8px rgba(0, 0, 0, 0.8);
     animation: glow 2s ease-in-out infinite alternate;
+    line-height: 1.2;
 }
 
 @keyframes glow {
@@ -78,10 +79,11 @@ body::before {
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #ff6b00;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     font-weight: bold;
+    line-height: 1.3;
 }
 
 /* Contenu principal - Mobile First */
@@ -93,13 +95,14 @@ body::before {
 
 /* Sections - Mobile First */
 .section-title {
-    font-family: 'Creepster', cursive;
-    font-size: 1.8rem;
+    font-family: 'Creepster', 'Arial Black', 'Arial', sans-serif;
+    font-size: 2rem;
     text-align: center;
     margin: 2rem 0 1.5rem 0;
     color: #ff6b00;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     position: relative;
+    line-height: 1.2;
 }
 
 .section-title::after {
@@ -130,13 +133,14 @@ body::before {
     border-radius: 12px;
     padding: 1rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #ffffff;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    line-height: 1.3;
 }
 
 .guest-card::before {
@@ -179,7 +183,8 @@ body::before {
     align-items: center;
     padding: 0.8rem 0;
     border-bottom: 1px solid #333;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
 }
 
 .budget-item:last-of-type {
@@ -212,7 +217,7 @@ body::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.2rem 0;
+    padding: 1.2rem 2rem;
     background: linear-gradient(90deg, rgba(255, 107, 0, 0.1), rgba(126, 63, 242, 0.1));
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -345,9 +350,10 @@ body::before {
 }
 
 .timeline-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #ffffff;
     font-weight: 500;
+    line-height: 1.4;
 }
 
 /* Footer - Mobile First */
@@ -389,15 +395,18 @@ body::before {
 /* Tablettes (768px et plus) */
 @media (min-width: 768px) {
     .main-title {
-        font-size: 2.8rem;
+        font-size: 3rem;
+        line-height: 1.1;
     }
     
     .subtitle {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        line-height: 1.2;
     }
     
     .section-title {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
+        line-height: 1.1;
     }
     
     .guests-grid {
@@ -407,7 +416,8 @@ body::before {
     
     .guest-card {
         padding: 1.2rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        line-height: 1.3;
     }
     
     .budget-per-person {
@@ -471,12 +481,14 @@ body::before {
     }
     
     .main-title {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
         text-shadow: 3px 3px 0px #000, 6px 6px 10px rgba(0, 0, 0, 0.8);
+        line-height: 1.1;
     }
     
     .subtitle {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        line-height: 1.2;
     }
     
     .main-content {
@@ -485,8 +497,9 @@ body::before {
     }
     
     .section-title {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         margin: 3rem 0 2rem 0;
+        line-height: 1.1;
     }
     
     .section-title::after {
@@ -501,7 +514,8 @@ body::before {
     
     .guest-card {
         padding: 1.5rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        line-height: 1.3;
     }
     
     .budget-details {
@@ -510,7 +524,8 @@ body::before {
     
     .budget-item {
         padding: 1rem 0;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
     }
     
     .budget-per-person {
@@ -535,7 +550,8 @@ body::before {
     }
     
     .timeline-text {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        line-height: 1.4;
     }
     
     .footer {
