@@ -5,7 +5,7 @@ const budgetData = {
         pricePerUnit: 27,
         total: 0
     },
-    courses: 40,
+    courses: 55,
     totalGuests: 10
 };
 
