@@ -1,7 +1,7 @@
 // Configuration des données de budget
 const budgetData = {
     pizzas: {
-        quantity: 4,
+        quantity: 3,
         pricePerUnit: 27,
         total: 0
     },
