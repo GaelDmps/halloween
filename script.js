@@ -6,7 +6,7 @@ const budgetData = {
         total: 0
     },
     courses: 60,
-    totalGuests: 10
+    totalGuests: 8
 };
 
 // Calcul automatique des totaux
